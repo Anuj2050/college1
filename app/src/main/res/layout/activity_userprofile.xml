@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userprofile"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_profile"
+        android:hint="@string/your_s_profile"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_light"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_appcantfirst"
+        android:hint="@string/applicant_first_name"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/holo_green_light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_userfirst"
+        android:textSize="12sp"
+        android:layout_weight="2"
+        android:padding="5dp"
+        android:textColor="@android:color/holo_green_light"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_appcantlast"
+        android:hint="@string/applicant_last_name"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/holo_green_light"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_userlast"
+        android:textSize="12sp"
+        android:layout_weight="2"
+        android:padding="5dp"
+        android:textColor="@android:color/holo_green_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_phoneappcant"
+            android:hint="@string/applicantphonenumber"
+            android:textSize="12sp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_green_light"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_phoneuser"
+            android:textSize="12sp"
+            android:layout_weight="2"
+            android:padding="5dp"
+
+            android:textColor="@android:color/holo_green_light"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_dobapplicant"
+            android:hint="@string/applicant_dob"
+            android:textSize="12sp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_green_light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_userdob"
+            android:textSize="12sp"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_green_light"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_appcantaddress"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:hint="@string/applicant_address"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_green_light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_useraddress"
+            android:textSize="12sp"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:textColor="@android:color/holo_green_light"/>
+        </LinearLayout>
+
+</LinearLayout>

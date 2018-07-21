@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">college</string>
+    <string name="welcome_to_the_bhaktapur_college">Welcome To The Bhaktapur College</string>
+    <string name="a_temple_of_learing">A temple of Learing</string>
+    <string name="click_to_proceed">Click To Proceed</string>
+    <string name="registration_form">Registration form</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="phonenumber">Phonenumber</string>
+    <string name="enter_your_grade">Enter Your Percentage</string>
+    <string name="enter_dob">Enter Dob</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or">Or</string>
+    <string name="login">Login</string>
+    <string name="profiling">Profiling</string>
+    <string name="enter_user_name">Enter user name</string>
+    <string name="create_password">create Password</string>
+    <string name="applicant_first_name">Applicant First Name</string>
+    <string name="applicant_last_name">Applicant Last NAme</string>
+    <string name="applicantphonenumber">Applicant Phone Number</string>
+    <string name="applicant_dob">Applicant DOB</string>
+    <string name="applicant_address">Applicant Address</string>
+    <string name="your_s_profile">Your\'s Profile</string>
+</resources>
